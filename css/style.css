@@ -39,6 +39,12 @@ h1 {
     padding: 10px;
 }
 
+.controls .btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
 .controls .fa-play {
     color: #28a745;
 }
@@ -60,8 +66,6 @@ h1 {
 .btn:focus {
     outline: 0;
 }
-
-
 
 
 @media(max-width) {
